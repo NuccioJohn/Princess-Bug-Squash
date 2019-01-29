@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background: #ffffff url('../images/geometry2.png'); 
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/*
+ * Styles for the Score Panel
+ */
+
+ .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score-panel {
+    text-align: left;
+    width: 345px;
+    margin-bottom: 10px;
+}
+
+.score-panel .hearts {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .hearts li {
+    list-style: none;
+    display: inline-block;
+    color: red;
+}
+
+.score-panel .gems {
+	float: right;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .gems li {
+    list-style: none;
+    display: inline-block;
+}
+
+#star{
+	color: orange;
+}
+
+#key {
+	color: #808000;
+}
+
+#orangeGem {
+	color: orange;
+}
+
+#blueGem {
+	color: blue;
+}
+
+#greenGem {
+	color: green;
+}
+
+.hide-gem {
+	visibility:hidden;
+}
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+    margin-left: 5px;
+}

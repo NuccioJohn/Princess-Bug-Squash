@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+	<div class="header-container">
+        <header>
+            <h1>Princess Bug Squash</h1>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="hearts">
+        		<li id="firstHeart"><i class="fa fa-heart"></i></li>
+        		<li id="secondHeart"><i class="fa fa-heart"></i></li>
+                <li id="thirdHeart"><i class="fa fa-heart"></i></li>
+                <li id="fourthHeart" style="display: none"><i class="fa fa-heart"></i></li>
+        	</ul>
+
+        	 <ul class="gems">
+        	 	<li>Items:</li>
+        		<li id="star" class="hide-gem"><i class="fa fa-star"></i></li>
+        		<li id="key" class="hide-gem"><i class="fa fa-key"></i></li>
+                <li id="orangeGem" class="hide-gem"><i class="fa fa-diamond"></i></li>
+                <li id="blueGem" class="hide-gem"><i class="fa fa-diamond"></i></li>
+                <li id="greenGem" class="hide-gem"><i class="fa fa-diamond"></i></li>
+        	
+
+            <div class="restart">
+        		<i class="fa fa-repeat" onClick="restartStart()"></i>
+        	</div>
+        	</ul>
+        </section>
+    </div>
+<body>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+    <!--Scritp allows for the awesome lost and win pop ups -->
+    <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
